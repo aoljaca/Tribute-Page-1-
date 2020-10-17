@@ -1,0 +1,112 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+  }
+  
+  #main{
+    background-color: black;
+    text-align: center;
+  }
+  
+  #img-div{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:"Moonspace" "Sans=serif";             
+    font-weight: bold; 
+    color:white;  
+  }
+  
+  #hey {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  
+  #img-div img{
+    width: 22rem;
+    object-fit: cover;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border: 1rem solid gold;
+  }
+  
+  
+  #image{
+    max-width: 100%;
+  }
+  
+  #title{
+    padding-top: 5rem;
+    font-size: 6rem;
+    font-family:"Sans=serif" "Moonspace";       
+    font-weight: bold; color:white; 
+    text-align: center;
+  }
+  
+  #img-caption {
+     padding: .9em .7em .1em .7em;
+  }
+  #tribute-info {
+    display: inline-block;
+    text-align: left;
+    color:turquoise;
+    font-size: 2.5rem;
+    text-indent: 5em;
+    line-height: 1.9;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  #tribute-info li{
+    padding: 1rem 1rem;
+    margin-bottom: -1rem;
+    background-color: black;
+    border: 1px solid #ddd;
+  }
+  
+  #tribute-link {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:"Moonspace" "Sans=serif";       
+    font-weight: bold;  
+    background: red;
+    color: white;
+  }
+  
+  #tribute-link:hover {
+    background: blue;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:"Moonspace" "Sans=serif";       
+    font-weight: bold;  
+    color: white;
+    padding-bottom: 9rem;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family:"Moonspace" "Sans=serif";       
+    font-weight: bold;  
+    color: gold;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:"Moonspace" "Sans=serif";       
+    font-weight: bold;  
+    color: white;
+    margin-top: 3rem; 
+    margin-bottom: 2.5rem; 
+    margin-right: 30rem;
+    margin-left:  30rem;
+  }
+  
+  
